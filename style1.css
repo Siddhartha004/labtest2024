@@ -1,0 +1,66 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: white;
+}
+
+h1 {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.nav-box {
+  border: 2px solid green;
+  width: 60%;
+  margin: 10px auto;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.nav-box a {
+  margin: 0 10px;
+  color: purple;
+  text-decoration: none;
+}
+
+.nav-box a:hover {
+  text-decoration: underline;
+}
+
+h2 {
+  font-weight: bold;
+}
+
+.contact-form {
+  width: 300px;
+  margin: 0 auto;
+  text-align: left;
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 15px;
+}
+
+.contact-form label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"] {
+  width: 180px;
+  margin-left: 10px;
+}
+
+.contact-form textarea {
+  width: 100%;
+  margin-top: 5px;
+}
+
+.contact-form input[type="submit"],
+.contact-form input[type="reset"] {
+  margin-top: 10px;
+  margin-right: 5px;
+  padding: 5px 10px;
+  align-content: center;
+}

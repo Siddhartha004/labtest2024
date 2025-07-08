@@ -1,0 +1,90 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-color: #fff;
+}
+
+header {
+  background-color: green;
+  color: black;
+  padding: 20px;
+  border-radius: 0 0 10px 10px;
+}
+
+header h1 {
+  color: black;
+  font-weight: bold;
+}
+
+header p em {
+  color: black;
+}
+
+main h2 {
+  font-size: 2em;
+  margin: 20px 0 10px;
+}
+
+.nav-box {
+  border: 2px solid green;
+  width: 50%;
+  margin: 0 auto 30px;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.nav-box nav a {
+  margin: 0 10px;
+  color: purple;
+  text-decoration: none;
+}
+
+.nav-box nav a:hover {
+  text-decoration: underline;
+}
+
+.equation-box {
+  border: 2px solid green;
+  width: 70%;
+  margin: 0 auto 30px;
+  padding: 15px;
+  text-align: left;
+}
+
+.equations {
+  list-style-type: disc;
+  background-color: black;
+  color: yellow;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.math {
+  font-weight: bold;
+}
+
+.table-box {
+  width: 70%;
+  margin: 0 auto 40px;
+}
+
+.table-box h3 {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: left;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid green;
+  padding: 10px;
+  text-align: left;
+}
